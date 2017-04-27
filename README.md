@@ -2399,7 +2399,7 @@
     const foo = jsonData && jsonData.foo && jsonData.foo.bar && jsonData.foo.bar.baz && jsonData.foo.bar.baz.quux && jsonData.foo.bar.baz.quux.xyzzy;
 
     // bad
-    $.ajax({ method: 'POST', url: 'https://diegoteliz.com/', data: { name: 'John' } }).done(() => console.log('Congratulations!')).fail(() => console.log('You have failed this city.'));
+    $.ajax({ method: 'POST', url: 'https://intercity.co.nz/', data: { name: 'John' } }).done(() => console.log('Congratulations!')).fail(() => console.log('You have failed this city.'));
 
     // good
     const foo = jsonData
@@ -2412,7 +2412,7 @@
     // good
     $.ajax({
       method: 'POST',
-      url: 'https://diegoteliz.com/',
+      url: 'https://intercity.co.nz/',
       data: { name: 'John' },
     })
       .done(() => console.log('Congratulations!'))
